@@ -1,0 +1,286 @@
+
+*box-sizing{border-box}
+
+
+
+body{
+    background-color: lavender;
+    margin: 0;
+    
+
+
+
+}
+
+
+
+.head{background-color: #082cf691;
+    display: flex;
+   justify-content: space-between;
+   color: white;
+   font-family: Courier New;
+
+   
+
+
+
+}
+
+
+.bangladeshf1{
+
+    height: 80px;
+
+}
+
+
+
+
+.bangladeshf2{
+
+    height: 80px;
+}
+
+
+.facebookicon{
+
+    color: white;
+    text-decoration: none;
+}
+
+.fab{
+    margin-top: 15px;
+}
+    
+
+.headerclear{
+
+    clear: both;
+}
+
+
+
+
+.logobook{
+    float: left;
+    height: 79px;
+    width: 100px;
+    border-radius: 30px;
+
+
+}
+
+
+
+
+.navbar{
+    
+    position: sticky;
+    top: 0;
+    display: flex;
+    font-family: Courier New;
+
+   
+}
+
+
+
+
+
+
+
+ul{
+
+    position: sticky;
+    top: 0;
+    display: flex;
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1c1e1d;
+    
+
+
+}
+
+
+
+
+
+
+
+
+
+li{
+    float: left;
+
+}
+
+li a{
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 30px 35px;
+    text-decoration: none;
+
+
+}
+
+
+li a:hover:not(.active){background-color: green;}
+
+
+
+
+
+.active{background-color:  #4CAF50;;}
+
+
+
+.firstulli{
+
+    color: white;
+    margin-top: 15px;
+}
+
+
+
+.lastulli{
+   
+    margin-top: 30px;
+    color: white;
+    
+}
+
+.headerafterdiv{
+
+    clear:both;
+}
+
+
+
+.row{
+
+    background-color: rgba(5, 5, 4, 0.26);
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.left{
+    box-sizing: border-box;
+    width: 250px;
+    background-color: rgb(219, 241, 241);
+    border: 10px solid #99f399;
+    padding-left: 70px;
+    padding-top: 50px;
+  
+}
+
+
+.middle{
+    box-sizing: border-box;
+    width: 330px;
+    background-color: rgb(189, 241, 220);
+    border: 10px solid rgb(179, 165, 165);
+    padding: 15px;
+}
+
+
+.bangladesh{
+
+    text-align: center;
+    background-color: thistle;
+}
+
+
+
+
+.middle2{
+    box-sizing: border-box;
+    width: 330px;
+    background-color: rgb(219, 231, 243);
+    border: 10px solid rgb(229, 162, 162);
+    padding: 15px;
+
+}
+
+
+
+.muktijuddo{
+
+    text-align: center;
+    background-color: thistle;
+   
+}
+
+
+.middle3{
+    box-sizing: border-box;
+    width: 330px;
+    background-color: rgb(182, 185, 183);
+    border: 10px solid rgb(240, 240, 151);
+    padding: 15px;
+
+}
+
+
+
+.muktijuddo2{
+
+    text-align: center;
+    background-color: thistle;
+}
+
+
+
+.right{
+    box-sizing: border-box;
+    background-color: rgb(182, 169, 194);
+    border: 10px solid rgb(174, 145, 240);
+    padding: 15px;
+    
+    
+
+}
+
+.right a{
+    
+    text-decoration: none;
+    color: rgb(60, 9, 243);
+   
+
+
+}
+
+
+
+
+.right a:hover{
+    
+    text-decoration: none;
+    background-color: tomato;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+
+    background-color: gray;
+    font-size: 200px;
+    text-align: center;
+    color: yellowgreen;
+}
